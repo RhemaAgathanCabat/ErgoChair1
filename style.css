@@ -1,0 +1,483 @@
+/* General Style */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    background-color:  #9DC183;
+}
+
+/* Header */
+#home {
+    background-color: #106a69;
+    color: #ffffff;
+    padding: 15px;
+}                                                                     
+
+#home h1 {
+    margin: 10px 0;
+    font-size: 32px;
+}
+
+/* Banner */
+.banner-gif {
+    width: 680;
+    height: 300;
+    max-width: 100%;
+}
+
+/* Navigation */
+.navigation {
+    background-color: #106a69;
+    padding: 15px;
+    border-top: 2px solid #106a69 !important;
+    border-bottom: 2px solid #106a69 !important;
+}
+
+table.navigation td a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  margin: 0 20px;
+  transition: color 0.2s ease-in-out; 
+}
+
+table.navigation td a:hover {
+  color: #B2DFDB;
+}
+
+/* Section Titles */
+h2 {
+    color: #032c2c;
+    margin-top: 20px;
+}
+
+/* Horizontal Lines */
+hr {
+    border: none;
+    height: 3px;
+    background-color:  #9DC183;
+}
+
+/* Main Content */
+p {
+    line-height: 1.6;
+    color: #1a2530 !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+}
+
+/* Product Models */
+.models-table td {
+    background-color: white;
+    text-align: center;
+    vertical-align: top;
+    border-radius: 8px;
+    transition: 0.3s;
+    border: none !important;
+    padding-bottom: 20 px 15px;
+}
+
+.models-table td:hover {
+    transform: scale(1.03);
+    box-shadow: 0 15px 30px rgba(6, 58, 58, 0.15);
+}
+
+.models-table img {
+    border-radius: 8px;
+    max-width: 100%;
+}
+.section-title {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    
+    /* 1. BOLD TEXT GRAPHICS */
+    font-weight: 800 !important;
+    font-size: 24px;
+    color: #004d4d;
+    text-align: center;
+    
+    /* 2. BACKGROUND BOX STYLING */
+    background-color: #e6eded !important;
+    padding: 12px 28px;
+    border-radius: 6px;
+    
+    /* 3. EXTERNAL CENTERING FIXES */
+    display: block !important;
+    width: fit-content !important;
+    margin: 40px auto 20px auto !important;
+}
+
+/* Showcase */
+.showcase-table, 
+.showcase-table tr {
+    border: none !important;
+    border-collapse: collapse !important;
+}
+
+.showcase-table td {
+    background-color: white;
+    vertical-align: top;
+    border-radius: 8px;
+    border: none !important;
+    padding: 20px 15px;
+    transition: 0.3s ease;
+}
+
+.showcase-table td:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.showcase-table img {
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.section-title {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    
+    /* 1. BOLD TEXT GRAPHICS */
+    font-weight: 800 !important; 
+    font-size: 24px;
+    color: #004d4d;      
+    text-align: center;
+    
+    /* 2. BACKGROUND BOX STYLING */
+    background-color: #e6eded !important;
+    padding: 12px 28px;
+    border-radius: 6px;
+    
+    /* 3. EXTERNAL CENTERING FIXES */
+    display: block !important;
+    width: fit-content !important;     
+    margin: 40px auto 20px auto !important; 
+}
+
+/* Subservices Container Box */
+.subservices {
+    background-color: transparent!important;
+    padding: 30px !important;
+    margin: 20px !important;
+    border-radius: 10px !important;
+}
+
+/* NEW GRID: Spreads the cards side-by-side */
+.services-grid {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 20px !important;
+    width: 100% !important;
+    margin-top: 15px !important;
+    box-sizing: border-box !important;
+}
+
+/* Individual Feature Cards */
+.service-card {
+    flex: 1 1 calc(33.33% - 14px) !important;
+    min-width: 250px !important;
+    background-color: #f8fafc !important;
+    border-radius: 8px !important;
+    padding: 24px !important;
+    box-sizing: border-box !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease !important;
+    border: 1px solid #f1f5f9 !important;
+}
+
+/* Interactive Card Animation */
+.service-card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 10px 20px rgba(0, 77, 77, 0.06) !important;
+    background-color: #ffffff !important;
+    border-color: rgba(0, 77, 77, 0.15) !important;
+}
+
+/* Icon Design Layout */
+.service-icon {
+    font-size: 28px !important;
+    margin-bottom: 12px !important;
+    display: inline-block !important;
+}
+
+/* Inside Heading Titles */
+.service-card h4 {
+    margin: 0 0 8px 0 !important;
+    color: #004d4d !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+/* Inside Description Layout */
+.service-card p {
+    margin: 0 !important;
+    font-size: 14px !important;
+    color: #475569 !important;
+    line-height: 1.5 !important;
+}
+
+/* Premium FAQ section style */
+
+.faq-container {
+    /* Removed the max-width center limit */
+    width: 100% !important;            
+    
+    /* Moved to left-aligned margins */
+    margin: 30px 20px 50px 20px !important; 
+    
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 16px !important;              
+    box-sizing: border-box !important;
+}
+
+/* Individual FAQ Question Card */
+.faq-item {
+    background-color: #f1f6f3  !important;
+    border-radius: 10px !important;
+    padding: 24px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.faq-item:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 20px rgba(0, 77, 77, 0.05) !important;
+}
+
+/* The Bold Question Text */
+.faq-question {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    color: #004d4d !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    margin: 0 0 10px 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+}
+
+.faq-answer {
+    font-family: 'Inter', sans-serif;
+    color: #475569 !important;
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+    font-weight: 500 !important;
+}
+
+.contact-grid {
+    display: block !important;
+    max-width: 640px !important;
+    width: 90% !important;
+    margin: 30px auto 0 auto !important;
+    background: #ffffff !important;
+    padding: 25px 35px !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04) !important;
+    box-sizing: border-box !important;
+}
+
+.contact-details-box {
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.contact-item-row {
+    display: flex !important;
+    align-items: center !important;
+    padding: 14px 0 !important;
+    border-bottom: 1px dashed #e2e8f0 !important;
+}
+
+.contact-item-row:last-child {
+    border-bottom: none !important;
+}
+
+.contact-field-label {
+    width: 150px !important;
+    font-weight: 700 !important;
+    color: #004d4d !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+}
+
+.contact-field-value {
+    flex: 1 !important;
+    color: #334155 !important;
+    font-size: 15px !important;
+    margin: 0 !important;
+    font-weight: 500 !important;
+}
+
+/* Form */
+form {
+    text-align: center;
+    background-color: #080d0c;
+    padding: 25px;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form p {
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #008080;
+}
+
+input[type="submit"] {
+    background-color: #008080;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #005f5f;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+    #home h1 {
+        font-size: 24px;
+    }
+
+    .navigation a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .models-table,
+    .showcase-table {
+        width: 100%;
+    }
+}
+
+/* Interactive client intake form styles */
+.form-item-row {
+    display: flex !important;
+    align-items: center !important;
+    padding: 14px 0 !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+}
+
+/* Align the message label to the top*/
+.form-item-row.msg-row {
+    align-items: flex-start !important;
+}
+
+.form-field-label {
+    width: 180px !important;
+    font-weight: 700 !important;
+    color: #004d4d !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+}
+
+/* Modern Minimalist Input Fields */
+.form-field-input {
+    flex: 1 !important;
+    border: 1px solid transparent !important;
+    background-color: #f8fafc !important;
+    padding: 12px 16px !important;
+    border-radius: 6px !important;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px !important;
+    color: #334155 !important;
+    outline: none !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Interactive Glow effect when a user clicks into a text box */
+.form-field-input:focus {
+    background-color: #ffffff !important;
+    border-color: rgba(0, 77, 77, 0.3) !important;
+    box-shadow: 0 0 0 3px rgba(0, 77, 77, 0.08) !important;
+}
+
+.textarea-input {
+    resize: none !important;
+}
+
+/* Submit button row  */
+.form-submit-row {
+    display: flex !important;
+    justify-content: flex-end !important;
+    padding-top: 20px !important;
+}
+
+/* Premium Solid Brand Teal Submit Button */
+.form-submit-btn {
+    background-color: #004d4d !important;
+    color: #ffffff !important;
+    border: none !important;
+    padding: 12px 28px !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    border-radius: 6px !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 12px rgba(0, 77, 77, 0.15) !important;
+}
+
+.form-submit-btn:hover {
+    background-color: #003333 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 15px rgba(0, 77, 77, 0.25) !important;
+}
+
+footer {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 60px !important;
+    background: #2d2d2d !important;
+    margin-top: 40px !important;
+    box-sizing: border-box !important;
+}
+
+footer p {
+    margin: 0 !important;
+    color: #ffffff !important;
+    font-size: 14px !important;
+}
+
+

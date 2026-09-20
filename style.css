@@ -480,4 +480,22 @@ footer p {
     font-size: 14px !important;
 }
 
+nav.navigation {
+    background-color: #106a69;
+    padding: 15px;
+    text-align: center;
+}
+
+nav.navigation a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    margin: 0 15px;
+}
+
+nav.navigation a:hover {
+    color: #B2DFDB;
+}
+
 
